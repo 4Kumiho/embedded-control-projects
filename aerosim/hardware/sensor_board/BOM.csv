@@ -1,0 +1,19 @@
+Ref,Valore,Package,Descrizione,Fornitore,Codice,Quantità
+U1,STM32F411CEU6,UFQFPN48,MCU ARM Cortex-M4 512KB Flash,Mouser,511-STM32F411CEU6,1
+U2,MPU-6050,QFN24,IMU 6-assi I2C,Mouser,595-MPU-6050,1
+U3,BMP390,LGA8,Barometro+Temperatura SPI,Mouser,828-BMP390,1
+U4,NEO-M9N,SMD,Ricevitore GPS multi-costellazione,Mouser,u-blox NEO-M9N,1
+U5,ESP32-MINI-1,SMD,Modulo WiFi+BT per telemetria,Mouser,Espressif ESP32-MINI-1,1
+U6,AMS1117-3.3,SOT-223,Regolatore LDO 3.3V 1A,Mouser,522-AMS1117-3.3,1
+C1,100nF,0402,Decoupling MCU VDD,Mouser,KEMET C0402,10
+C2,10µF,0805,Bulk decoupling,Mouser,Murata GRM21B,5
+C3,10µF,0805,LDO output,Mouser,Murata GRM21B,2
+R1,4.7kΩ,0402,I2C pull-up SCL,Mouser,Yageo RC0402,1
+R2,4.7kΩ,0402,I2C pull-up SDA,Mouser,Yageo RC0402,1
+R3,10kΩ,0402,BOOT0 pull-down,Mouser,Yageo RC0402,1
+J1,SWD,10-pin 1.27mm,Debug/Programming,Mouser,Samtec FTSH-105,1
+J2,USB-microB,USB_Micro_B,Alimentazione e debug USB,Mouser,Amphenol 10118193,1
+J3,JST-PH 2pin,JST_PH_2pin,Connettore batteria LiPo,Mouser,JST B2B-PH,1
+J4,U.FL,U.FL,Connettore antenna GPS,Mouser,Hirose U.FL-R-SMT,1
+ANT1,Chip antenna 2.4GHz,0402,Antenna ESP32 WiFi,Mouser,Johanson 0433AT62A0020E,1
+BAT1,CR1220,THT,Batteria backup GPS hot start,Mouser,Keystone 3001,1

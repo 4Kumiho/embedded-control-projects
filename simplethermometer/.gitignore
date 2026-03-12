@@ -1,0 +1,48 @@
+# Build artifacts
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Executables
+firmware_main
+firmware_main.exe
+test_sensor
+test_sensor.exe
+test_parser
+test_parser.exe
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Generated files
+pid_analysis.png
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db

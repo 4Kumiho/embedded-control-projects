@@ -1,0 +1,17 @@
+# SimpleThermometer Ground Station Requirements
+# Install with: pip install -r requirements.txt
+
+# PyQt6 - GUI framework (version 6.x)
+PyQt6==6.7.0
+
+# Matplotlib - Plotting library for graphs
+matplotlib==3.8.0
+
+# NumPy - Numerical computing (required by matplotlib)
+numpy==1.24.0
+
+# PySerial - Serial port communication (optional, for real hardware)
+pyserial==3.5
+
+# SciPy - Scientific computing (optional, for signal processing)
+scipy==1.12.0

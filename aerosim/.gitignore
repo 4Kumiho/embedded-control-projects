@@ -1,0 +1,23 @@
+# Build
+build/
+*.o
+*.a
+*.exe
+*.out
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# KiCad
+hardware/**/*.bak
+hardware/**/*-backups/
+
+# Octave
+*.m~
+
+# IDE
+.vscode/settings.json
+.idea/
